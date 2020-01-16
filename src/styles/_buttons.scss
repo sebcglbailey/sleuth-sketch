@@ -1,0 +1,152 @@
+@mixin button-color($bg, $color, $bg-hover, $border-color, $bg-active: $bg-hover, $color-hover: $color, $color-active: $color-hover) {
+    @include transition(background-color);
+    --icon-color: #{$color};
+
+    background-color: $bg;
+    border: $button-border-thickness solid $border-color;
+    color: $color;
+
+    &:hover {
+        background-color: $bg-hover;
+        color: $color-hover;
+        --icon-color: #{$color-hover};
+    }
+
+    &:active {
+        background-color: $bg-active;
+        color: $color-active;
+        --icon-color: #{$color-active};
+        box-shadow: none;
+    }
+}
+
+@mixin button-size($font-size, $height, $padding, $icon-size) {
+
+    $padding-vertical: (($height - $icon-size - (px-to-rem($button-border-thickness) * 2)) / 2);
+    $padding-horizontal: ($padding - px-to-rem($button-border-thickness));
+
+    @include padding(
+        var(--button-padding-top, $padding-vertical)
+        var(--button-padding-right, $padding-horizontal)
+        var(--button-padding-bottom, $padding-vertical)
+        var(--button-padding-left, $padding-horizontal)
+    );
+
+    font-size: $font-size;
+    line-height: var(--icon-size, #{$button-md-icon-size});
+
+    &.icon-button,
+    &.icon-button .slot-wrapper {
+        --icon-size: #{$icon-size};
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        .icon {
+            &:first-child {
+                margin-left: calc( var(--icon-size, #{$gp}) / -4);
+            }
+            &:last-child {
+                margin-right: calc( var(--icon-size, #{$gp}) / -4);
+            }
+        }
+
+        > *:not(:last-child) {
+            @include margin-end($gp / 2);
+        }
+    }
+}
+
+@mixin button-icon-only {
+    @include button-color(
+        rgba($button-icon-color, $button-transparency-0),
+        $button-icon-color-text,
+        $button-icon-color-hover,
+        $button-icon-color-border,
+        $button-icon-color-active
+    );
+
+    display: inline-flex;
+    font-size: $font-size-lg;
+    padding: px-to-rem(7px);
+}
+
+$primary-color: var(--primary-color, #{$color-primary});
+
+button,
+a.button,
+input[type="submit"] {
+    @include button-color(
+        $button-primary-color,
+        var(--text-color, #{$button-primary-color-text}),
+        var(--primary-color-dark, #{$button-primary-color-hover}),
+        var(--border-color, #{$button-primary-color-border}),
+        $button-primary-color-active
+    );
+    @include button-size(
+        $button-md-font-size,
+        $button-md-height,
+        $button-md-sides,
+        $button-md-icon-size);
+    @include transition(background-color, box-shadow, color);
+    @include prevent-select;
+
+    -webkit-tap-highlight-color: transparent; // sass-lint:disable-line no-vendor-prefixes
+    border-radius: var(--button-border-radius, #{$button-border-radius});
+    cursor: pointer;
+    display: inline-block;
+    font-weight: $font-weight-regular;
+    letter-spacing: $button-letter-spacing;
+    vertical-align: middle;
+    text-align: center;
+
+    &.icon-only {
+        @include button-icon-only;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &[type=reset],
+    &.secondary,
+    &.no-background,
+    &.text-button {
+        @include button-color(
+            $button-secondary-color,
+            var(--secondary-color, #{$button-secondary-color-text}),
+            $button-secondary-color-hover,
+            var(--secondary-color, #{$button-secondary-color-border}),
+            rgba($button-secondary-color-active, 0.2),
+            $button-secondary-color-text-hover,
+            $button-secondary-color-text-active
+        );
+    }
+
+    &.outline {
+        @include button-color(
+            $button-outline-color,
+            $button-outline-text-color,
+            $button-outline-color-hover,
+            $button-outline-color-border
+        );
+
+        &:hover {
+            color: $button-outline-text-color-hover;
+            --icon-color: #{$button-outline-text-color-hover};
+            border: $button-border-thickness solid $button-outline-color-border-hover;
+        }
+
+        &:active {
+            color: $button-outline-text-color-active;
+            --icon-color: #{$button-outline-text-color-active};
+            border: $button-border-thickness solid $button-outline-color-border-active;
+        }
+    }
+}
+
+.close {
+    color: $color-gray-80;
+    cursor: pointer;
+    --icon-size: #{$icon-size};
+}

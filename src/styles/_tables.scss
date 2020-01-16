@@ -1,0 +1,113 @@
+.table-wrapper {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    @media($large) {
+        table-layout: fixed;
+    }
+}
+
+thead {
+    border-top: 1px solid $color-gray-20;
+    position: sticky;
+    top: 0;
+}
+
+td,
+th {
+    @include text-align-start;
+}
+
+th {
+    @include prevent-select;
+    cursor: default;
+    font-weight: $font-weight-regular;
+    white-space: nowrap;
+    border-bottom: 1px solid $color-gray-lighter;
+    font-size: px-to-rem(14px);
+    padding: $gp;
+}
+
+td.selectable {
+    max-width: px-to-rem(50px);
+    width: px-to-rem(50px);
+}
+
+tr {
+    background-color: transparent;
+    border-bottom: 1px solid $color-gray-lighter;
+}
+
+th .cell {
+    display: flex;
+    align-items: center;
+
+    color: $color-text;
+    font-weight: $font-weight-semibold;
+}
+
+th.sortable {
+    cursor: pointer;
+
+    .sort-arrows {
+        @include transition(opacity);
+    }
+
+    :not(.active-sortable) {
+        color: $color-gray-dark;
+
+        .sort-arrows {
+            opacity: 0;
+        }
+    }
+
+    :hover {
+        color: $color-text;
+
+        .sort-arrows {
+            opacity: 1;
+            --icon-color: #{$color-link};
+        }
+    }
+
+    &.numeric{
+        .cell {
+            flex-flow: row-reverse;
+        }
+        .sort-arrows{
+            --icon-margin: #{0 $gp / 4 0 0};
+        }
+    }
+}
+
+th .sort-arrows {
+    display: flex;
+    flex-direction: column;
+    --icon-size: #{$icon-size-small};
+    --icon-color: transparent;
+    --icon-margin: #{0 $gp / 4};
+
+    .active {
+        @include transition(transform);
+
+        --icon-color: #{$color-link};
+
+        &.descending {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+td {
+    padding: $gp;
+    word-break: break-word;
+}
