@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 let rootProjectDirectory = process.argv[2];
 if (!rootProjectDirectory || rootProjectDirectory === '--help' || rootProjectDirectory === '-h') {
     console.log('usage: npm run report -- [ root_project_directory | abstract ]');
