@@ -63,25 +63,29 @@ async function run(){
                 sha: "latest"
             }
 
-            const files = await cliClient.files.list(filesIdentifier);
+            try{
+                const files = await cliClient.files.list(filesIdentifier);
 
-            fs.mkdirSync(rootProjectDirectory + '/' + cleanFilePaths(projects[projectKeys[pKey]].name));
-            const fileKeys = Object.keys(files);
-            for (let fKey in fileKeys ){
+                fs.mkdirSync(rootProjectDirectory + '/' + cleanFilePaths(projects[projectKeys[pKey]].name));
+                const fileKeys = Object.keys(files);
+                for (let fKey in fileKeys ){
 
-                fileCount += 1;
-                // each file download it
-                const fileIdentifier = {
-                    projectId: projects[projectKeys[pKey]].id,
-                    branchId: "master",
-                    fileId: files[fileKeys[fKey]].id,
-                    sha: "latest",
-                };
-                const fileProps = {
-                    filename: rootProjectDirectory + '/' + cleanFilePaths(projects[projectKeys[pKey]].name) + '/' + cleanFilePaths(files[fileKeys[fKey]].name+'.sketch'),
+                    fileCount += 1;
+                    // each file download it
+                    const fileIdentifier = {
+                        projectId: projects[projectKeys[pKey]].id,
+                        branchId: "master",
+                        fileId: files[fileKeys[fKey]].id,
+                        sha: "latest",
+                    };
+                    const fileProps = {
+                        filename: rootProjectDirectory + '/' + cleanFilePaths(projects[projectKeys[pKey]].name) + '/' + cleanFilePaths(files[fileKeys[fKey]].name+'.sketch'),
+                    }
+
+                    await cliClient.files.raw(fileIdentifier, fileProps);
                 }
-
-                await cliClient.files.raw(fileIdentifier, fileProps);
+            } catch( error ) {
+                console.log("--Project not synced. Skipping.");
             }
         }
         const downloadDoneTime = Date.now();
