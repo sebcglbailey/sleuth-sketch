@@ -37,10 +37,11 @@ async function run(){
         // Download sketch files
         const apiClient = new Abstract.Client({
             accessToken: process.env.ABSTRACT_TOKEN,
+            transportMode: ["api"]
         });
         const cliClient = new Abstract.Client({
             accessToken: process.env.ABSTRACT_TOKEN,
-            transportMode: "cli"
+            transportMode: ["cli"]
         });
         const organizationId = process.env.ABSTRACT_ORG_ID;
         // Get projects
