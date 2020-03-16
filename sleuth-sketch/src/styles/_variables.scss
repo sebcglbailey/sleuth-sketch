@@ -1,0 +1,183 @@
+//------------------------------------------------------------
+// Base
+//------------------------------------------------------------
+$rem-base: 16px;
+$global-padding: 1rem;
+$gp: 1rem;
+$border-radius: .75rem;
+
+
+//------------------------------------------------------------
+// Buttons
+//------------------------------------------------------------
+$button-md-sides: 1rem;
+$button-md-height: 2.5rem;
+$button-md-font-size: .875rem;
+$button-secondary-color-active: rgba(0, 64, 219, 0.44);
+$button-secondary-color-text-active: rgb(15, 48, 110);
+$button-outline-negative-color-border: rgb(224, 37, 0);
+$button-icon-color-active: rgba(0, 0, 0, 0.09);
+$button-outline-text-color: rgb(0, 64, 219);
+$button-outline-text-color-active: rgb(15, 48, 110);
+$button-secondary-color-border: transparent;
+$button-icon-color: transparent;
+$button-outline-color-border-hover: rgb(0, 64, 219);
+$button-secondary-color-text: rgb(0, 64, 219);
+$button-outline-color-hover: rgba(0, 0, 0, 0);
+$button-primary-color-hover: rgb(15, 48, 110);
+$button-border-thickness: 1px;
+$button-icon-color-border: transparent;
+$button-secondary-color: transparent;
+$button-icon-color-text: rgb(36, 36, 51);
+$button-primary-color-active: rgb(111, 131, 168);
+$button-transparency-0: 0;
+$button-outline-color-border-active: rgb(15, 48, 110);
+$button-letter-spacing: normal;
+$button-text-disabled-color: rgba(0, 0, 0, 0.09);
+$button-border-radius: .5rem;
+$button-outline-text-color-hover: rgb(0, 64, 219);
+$button-icon-color-hover: rgba(0, 0, 0, 0.02);
+$button-md-icon-size: 1rem;
+$button-secondary-color-text-hover: rgb(0, 64, 219);
+$button-outline-color-border: rgb(177, 177, 186);
+$button-primary-color-border: transparent;
+$button-primary-color-text: rgb(255, 255, 255);
+$button-primary-color: rgb(0, 64, 219);
+$button-outline-color: transparent;
+$button-secondary-color-hover: rgba(0, 64, 219, 0.1);
+
+
+//------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------
+$font-size-xsmall: .75rem;
+$font-size-small: .875rem;
+$font-size-med: 1rem;
+$font-size-xlg: 1.25rem;
+$font-size-large-number: 1.5rem;
+$font-size-huge: 1.5rem;
+$font-size-jumbo: 2rem;
+$font-size-mega: 3.25rem;
+$font-size-currency: 3.25rem;
+$font-weight-regular: 400;
+$font-size-md: 1rem;
+$font-table-number: Monaco, Courier, monospace;
+$font-size-sm: .875rem;
+$font-size-xl: 1.5rem;
+$font-family: Helvetica, Arial, sans-serif;
+$font-weight-empty-state-title: bold;
+$font-weight-headlines: 300;
+$font-size-xs: .75rem;
+$font-size-lg: 1.25rem;
+$font-weight-semibold: 500;
+$font-size-empty-state-title: 3.25rem;
+$font-family-empty-state-title: 'Times New Roman', serif;
+$font-family-secondary-title: 'Times New Roman', serif;
+$font-family-monospace: 12px/1.4 Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+$font-weight-bold: bold;
+$font-size-xxl: 2rem;
+$font-weight-light: 300;
+$headline-font-family: Helvetica, Arial, sans-serif;
+$line-height-xl: 2rem;
+$line-height-md: 1.25rem;
+$line-height-lg: 1.5rem;
+$line-height-xxl: 2.5rem;
+$line-height-med: 1.25rem;
+
+
+//------------------------------------------------------------
+// Colors
+//------------------------------------------------------------
+
+$color-navy: rgb(15, 48, 110);
+$color-gray-lighter: #E6E6E8;
+$color-gray-darker: #4A4A57;
+$color-blue: rgb(0, 64, 219);
+$color-forest: rgb(8, 84, 64);
+$color-red: rgb(224, 37, 0);
+$color-gray-mid: rgb(145, 145, 156);
+$color-gray-trans: rgba(0, 0, 0, 0.6);
+$color-navy-light: rgb(111, 131, 168);
+$color-gray: rgb(95, 95, 107);
+$color-font-primary: rgb(36, 36, 51);
+$color-gray-darkest: #242433;
+$color-gray-lightest: #FAFAFA;
+$color-gray-125: rgb(36, 36, 51);
+$color-black: rgb(0, 0, 0);
+$color-gray-light: #B1B1BA;
+$color-gray-dark: #7A7A87;
+$color-text: rgb(36, 36, 51);
+$color-gray-90: rgb(95, 95, 107);
+$color-primary: rgb(0, 64, 219);
+$color-background: rgb(255, 255, 255);
+$color-gray-80: rgb(122, 122, 135);
+$color-gray-70: rgb(145, 145, 156);
+$color-gray-60: rgb(177, 177, 186);
+$color-gray-50: rgb(205, 205, 209);
+$color-gray-40: rgb(220, 220, 222);
+$color-gray-30: rgb(230, 230, 232);
+$color-gray-20: rgb(240, 240, 240);
+$color-white: rgb(255, 255, 255);
+$color-gray-10: rgb(250, 250, 250);
+$transparent-background: rgba(0, 0, 0, 0.5);
+$color-link: rgb(0, 64, 219);
+$color-link-disabled: rgb(230, 230, 232);
+
+//------------------------------------------------------------
+// Elevation
+//------------------------------------------------------------
+$elevation-z16: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.2);
+
+
+//------------------------------------------------------------
+// Animation
+//------------------------------------------------------------
+$animation-duration: 250ms;
+$animation-in-timing: cubic-bezier(.23, 1, .32, 1);
+$animation-out-timing: cubic-bezier(.215, .61, .355, 1);
+$animation-scaleinout-timing: cubic-bezier(.68, -.4, .26, 1.55);
+$animation-circle-timing: cubic-bezier(.4, 0, .2, 1);
+
+
+//------------------------------------------------------------
+// Z-index
+//------------------------------------------------------------
+
+$zindex-modal: 900;
+
+//------------------------------------------------------------
+// Media
+//------------------------------------------------------------
+$small: "max-width: 949px";
+$medium: "min-width: 950px";
+$medium-down: "max-width: 1199px";
+$large: "min-width: 1200px";
+$container-width: 75rem;
+
+
+//------------------------------------------------------------
+// Icons
+//------------------------------------------------------------
+$font-size-icons: 1.5rem;
+$icon-size-lg: 1.5rem;
+$icon-size-sm: 1rem;
+$icon-size: 1.25rem;
+$icon-size-small: 1rem;
+
+
+//------------------------------------------------------------
+// Modal
+//------------------------------------------------------------
+$modal-size-xl: 60rem;
+$modal-size-med: 40rem;
+$modal-background-color: rgb(255, 255, 255);
+$modal-size-sm: 25rem;
+$modal-size-xs: 20rem;
+$modal-header-height: 3.5rem;
+$modal-size-lg: 50rem;
+$modal-size-fluid: 80%;
+
+//------------------------------------------------------------
+// Table Grid
+//------------------------------------------------------------
+$table-grid-link-color: rgb(36, 36, 51);
