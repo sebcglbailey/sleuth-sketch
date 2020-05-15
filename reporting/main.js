@@ -1,3 +1,6 @@
+const projectFilter = require('./projects.js');
+console.log(projectFilter)
+
 require("dotenv").config();
 
 let rootProjectDirectory = process.argv[2];
@@ -56,29 +59,6 @@ async function run() {
             { filter: "active" }
         );
 
-        // FILTER THE PROJECTS HERE MAYBE?
-        console.log("PROJECTS: ----------------------------");
-        const projectFilter = [
-            "Android App",
-            "iOS App",
-            "Web App (Global)",
-            "Web App (UK)",
-            "OneScore",
-            "Web App (Australia)",
-            "Web App (India)",
-            "Web App (South Africa)",
-            "Android App (Templates)",
-            "DS Hub",
-            "iOS App (Templates)",
-            "UI Kits",
-            "Web App (Templates)",
-            "Career",
-            "Connect Website & Portal",
-            "Design Portal",
-            "Learn",
-            "Website",
-            "Admin Tool 2.0"
-        ];
         projects = projects.filter(project => {
             return projectFilter.includes(project.name);
         });
@@ -93,11 +73,11 @@ async function run() {
 
             console.log(
                 "Getting project " +
-                    counter +
-                    " of " +
-                    projectKeys.length +
-                    " : " +
-                    projectName
+                counter +
+                " of " +
+                projectKeys.length +
+                " : " +
+                projectName
             );
             const filesIdentifier = {
                 projectId: projects[projectKeys[pKey]].id,
@@ -109,8 +89,8 @@ async function run() {
 
             fs.mkdirSync(
                 rootProjectDirectory +
-                    "/" +
-                    cleanFilePaths(projects[projectKeys[pKey]].name)
+                "/" +
+                cleanFilePaths(projects[projectKeys[pKey]].name)
             );
             const fileKeys = Object.keys(files);
             for (let fKey in fileKeys) {
@@ -141,8 +121,8 @@ async function run() {
         );
         console.log(
             `That's ${downloadTime /
-                1000 /
-                fileCount} seconds per file on average`
+            1000 /
+            fileCount} seconds per file on average`
         );
     }
 }
@@ -213,14 +193,14 @@ function report() {
 }
 
 run()
-    .then(function() {
+    .then(function () {
         report();
     })
-    .then(function() {
+    .then(function () {
         if (rootProjectDirectory === "__TEMP") {
             del.sync([rootProjectDirectory + "/**"]);
         }
     })
-    .catch(function(e) {
+    .catch(function (e) {
         console.log(e);
     });
