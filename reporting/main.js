@@ -151,7 +151,7 @@ function report() {
         const projectPath = join(rootProjectDirectory, projectName);
         const targetFiles = readdirSync(projectPath).filter(
             filename =>
-                path.extname(filename).toLowerCase() === TARGET_FILE_EXTENSION
+                path.extname(filename).toLowerCase() === TARGET_FILE_EXTENSION && !filename.includes("🚫")
         );
         const projectResult = (result.projects[projectName] = {});
 

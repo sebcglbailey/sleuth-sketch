@@ -1,0 +1,537 @@
+{
+    "timestamp": 1592487838897,
+    "projects": {
+        "Admin Tool 2.0": {
+            "Admin tool 2.0": {
+                "layers": 2748,
+                "layersReferencingExternalSymbols": 821,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            }
+        },
+        "Android App": {
+            "App Icon": {
+                "layers": 18,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Bottom navigation": {
+                "layers": 0,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Flows": {
+                "layers": 75,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Native Platform": {
+                "layers": 0,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Theme": {
+                "layers": 51,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Timeline": {
+                "layers": 0,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "UX": {
+                "layers": 0,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Springboard": {
+                "layers": 135,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Protect": {
+                "layers": 2,
+                "layersReferencingExternalSymbols": 2,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Tab bar": {
+                "layers": 20,
+                "layersReferencingExternalSymbols": 14,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "1. Start, Login & Registration": {
+                "layers": 929,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "More": {
+                "layers": 13,
+                "layersReferencingExternalSymbols": 11,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 2
+            },
+            "🚧 3. Report": {
+                "layers": 1780,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "2. Dashboard": {
+                "layers": 352,
+                "layersReferencingExternalSymbols": 248,
+                "layersReferencingExternalLayerStyles": 14,
+                "layersReferencingExternalTextStyles": 80
+            },
+            "My Account": {
+                "layers": 509,
+                "layersReferencingExternalSymbols": 288,
+                "layersReferencingExternalLayerStyles": 4,
+                "layersReferencingExternalTextStyles": 27
+            },
+            "Report": {
+                "layers": 1977,
+                "layersReferencingExternalSymbols": 732,
+                "layersReferencingExternalLayerStyles": 20,
+                "layersReferencingExternalTextStyles": 412
+            },
+            "Offers": {
+                "layers": 5720,
+                "layersReferencingExternalSymbols": 4,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 11
+            },
+            "Offers - New": {
+                "layers": 7094,
+                "layersReferencingExternalSymbols": 1193,
+                "layersReferencingExternalLayerStyles": 77,
+                "layersReferencingExternalTextStyles": 313
+            }
+        },
+        "Career": {
+            "Careers": {
+                "layers": 607,
+                "layersReferencingExternalSymbols": 73,
+                "layersReferencingExternalLayerStyles": 4,
+                "layersReferencingExternalTextStyles": 193
+            }
+        },
+        "Connect Website & Portal": {
+            "CS Connect - My Account": {
+                "layers": 799,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "linkedApps": {
+                "layers": 279,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "CS Connect Website": {
+                "layers": 595,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "CS Connect Portal": {
+                "layers": 2915,
+                "layersReferencingExternalSymbols": 298,
+                "layersReferencingExternalLayerStyles": 17,
+                "layersReferencingExternalTextStyles": 337
+            }
+        },
+        "Design Portal": {
+            "Design Portal": {
+                "layers": 849,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            }
+        },
+        "Learn": {
+            "3.0 Learn Article Templates": {
+                "layers": 1066,
+                "layersReferencingExternalSymbols": 63,
+                "layersReferencingExternalLayerStyles": 75,
+                "layersReferencingExternalTextStyles": 347
+            },
+            "2.0 Learn Verticals": {
+                "layers": 2194,
+                "layersReferencingExternalSymbols": 180,
+                "layersReferencingExternalLayerStyles": 96,
+                "layersReferencingExternalTextStyles": 439
+            },
+            "Archive": {
+                "layers": 2383,
+                "layersReferencingExternalSymbols": 412,
+                "layersReferencingExternalLayerStyles": 268,
+                "layersReferencingExternalTextStyles": 1056
+            },
+            "1.0 Learn Portal": {
+                "layers": 2217,
+                "layersReferencingExternalSymbols": 381,
+                "layersReferencingExternalLayerStyles": 175,
+                "layersReferencingExternalTextStyles": 807
+            }
+        },
+        "Open Banking": {
+            "4. Insights": {
+                "layers": 0,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "3. Open Banking": {
+                "layers": 1023,
+                "layersReferencingExternalSymbols": 386,
+                "layersReferencingExternalLayerStyles": 48,
+                "layersReferencingExternalTextStyles": 201
+            },
+            "2. Open Banking": {
+                "layers": 1457,
+                "layersReferencingExternalSymbols": 666,
+                "layersReferencingExternalLayerStyles": 108,
+                "layersReferencingExternalTextStyles": 311
+            },
+            "1. Open Banking": {
+                "layers": 1012,
+                "layersReferencingExternalSymbols": 656,
+                "layersReferencingExternalLayerStyles": 18,
+                "layersReferencingExternalTextStyles": 181
+            }
+        },
+        "UI Kits": {
+            "Weekly Competitions": {
+                "layers": 0,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Global 1.0": {
+                "layers": 1406,
+                "layersReferencingExternalSymbols": 629,
+                "layersReferencingExternalLayerStyles": 11,
+                "layersReferencingExternalTextStyles": 540
+            },
+            "CSAndroid 1.0": {
+                "layers": 1969,
+                "layersReferencingExternalSymbols": 1340,
+                "layersReferencingExternalLayerStyles": 64,
+                "layersReferencingExternalTextStyles": 563
+            },
+            "CSiOS 1.0": {
+                "layers": 2090,
+                "layersReferencingExternalSymbols": 1449,
+                "layersReferencingExternalLayerStyles": 64,
+                "layersReferencingExternalTextStyles": 575
+            },
+            "WebApp 1.0": {
+                "layers": 10754,
+                "layersReferencingExternalSymbols": 6800,
+                "layersReferencingExternalLayerStyles": 327,
+                "layersReferencingExternalTextStyles": 1103
+            }
+        },
+        "Web App (Australia)": {
+            "2. Dashboard": {
+                "layers": 60,
+                "layersReferencingExternalSymbols": 60,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "1. Registration": {
+                "layers": 185,
+                "layersReferencingExternalSymbols": 148,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 37
+            },
+            "3. Report": {
+                "layers": 211,
+                "layersReferencingExternalSymbols": 111,
+                "layersReferencingExternalLayerStyles": 24,
+                "layersReferencingExternalTextStyles": 76
+            },
+            "4. Offers": {
+                "layers": 180,
+                "layersReferencingExternalSymbols": 149,
+                "layersReferencingExternalLayerStyles": 2,
+                "layersReferencingExternalTextStyles": 28
+            }
+        },
+        "Web App (Global)": {
+            "Timeline": {
+                "layers": 0,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Registration": {
+                "layers": 148,
+                "layersReferencingExternalSymbols": 41,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 9
+            },
+            "UX": {
+                "layers": 121,
+                "layersReferencingExternalSymbols": 31,
+                "layersReferencingExternalLayerStyles": 4,
+                "layersReferencingExternalTextStyles": 48
+            },
+            "0. Log in": {
+                "layers": 474,
+                "layersReferencingExternalSymbols": 175,
+                "layersReferencingExternalLayerStyles": 2,
+                "layersReferencingExternalTextStyles": 127
+            },
+            "Dashboard templates": {
+                "layers": 294,
+                "layersReferencingExternalSymbols": 265,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "5. Coaching": {
+                "layers": 718,
+                "layersReferencingExternalSymbols": 243,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 79
+            },
+            "1. Dashboard": {
+                "layers": 1281,
+                "layersReferencingExternalSymbols": 1235,
+                "layersReferencingExternalLayerStyles": 42,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "2. Report": {
+                "layers": 3210,
+                "layersReferencingExternalSymbols": 1593,
+                "layersReferencingExternalLayerStyles": 90,
+                "layersReferencingExternalTextStyles": 771
+            },
+            "7. Protect": {
+                "layers": 3763,
+                "layersReferencingExternalSymbols": 1406,
+                "layersReferencingExternalLayerStyles": 283,
+                "layersReferencingExternalTextStyles": 1003
+            },
+            "My Account": {
+                "layers": 2962,
+                "layersReferencingExternalSymbols": 1820,
+                "layersReferencingExternalLayerStyles": 220,
+                "layersReferencingExternalTextStyles": 289
+            },
+            "3. Offers": {
+                "layers": 2007,
+                "layersReferencingExternalSymbols": 730,
+                "layersReferencingExternalLayerStyles": 139,
+                "layersReferencingExternalTextStyles": 492
+            },
+            "Covid-19": {
+                "layers": 6149,
+                "layersReferencingExternalSymbols": 1613,
+                "layersReferencingExternalLayerStyles": 195,
+                "layersReferencingExternalTextStyles": 930
+            }
+        },
+        "Web App (South Africa)": {
+            "2. Dashboard": {
+                "layers": 72,
+                "layersReferencingExternalSymbols": 72,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "3. Offers": {
+                "layers": 131,
+                "layersReferencingExternalSymbols": 103,
+                "layersReferencingExternalLayerStyles": 13,
+                "layersReferencingExternalTextStyles": 15
+            },
+            "1. Registration": {
+                "layers": 297,
+                "layersReferencingExternalSymbols": 189,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 108
+            }
+        },
+        "Web App (UK)": {
+            "Coaching": {
+                "layers": 0,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Registration exploration": {
+                "layers": 120,
+                "layersReferencingExternalSymbols": 53,
+                "layersReferencingExternalLayerStyles": 19,
+                "layersReferencingExternalTextStyles": 19
+            },
+            "Registration": {
+                "layers": 219,
+                "layersReferencingExternalSymbols": 131,
+                "layersReferencingExternalLayerStyles": 2,
+                "layersReferencingExternalTextStyles": 53
+            },
+            "Error states": {
+                "layers": 21,
+                "layersReferencingExternalSymbols": 11,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 6
+            },
+            "Dashboard": {
+                "layers": 72,
+                "layersReferencingExternalSymbols": 72,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Account": {
+                "layers": 1379,
+                "layersReferencingExternalSymbols": 131,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "GDPR": {
+                "layers": 3241,
+                "layersReferencingExternalSymbols": 228,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Timeline": {
+                "layers": 2877,
+                "layersReferencingExternalSymbols": 177,
+                "layersReferencingExternalLayerStyles": 8,
+                "layersReferencingExternalTextStyles": 234
+            },
+            "Offers": {
+                "layers": 9656,
+                "layersReferencingExternalSymbols": 2557,
+                "layersReferencingExternalLayerStyles": 535,
+                "layersReferencingExternalTextStyles": 1695
+            },
+            "Report": {
+                "layers": 20312,
+                "layersReferencingExternalSymbols": 2498,
+                "layersReferencingExternalLayerStyles": 1381,
+                "layersReferencingExternalTextStyles": 5159
+            }
+        },
+        "Website": {
+            "Global Navigation": {
+                "layers": 120,
+                "layersReferencingExternalSymbols": 100,
+                "layersReferencingExternalLayerStyles": 2,
+                "layersReferencingExternalTextStyles": 16
+            },
+            "Legal Pages": {
+                "layers": 335,
+                "layersReferencingExternalSymbols": 16,
+                "layersReferencingExternalLayerStyles": 39,
+                "layersReferencingExternalTextStyles": 250
+            },
+            "About us": {
+                "layers": 618,
+                "layersReferencingExternalSymbols": 6,
+                "layersReferencingExternalLayerStyles": 15,
+                "layersReferencingExternalTextStyles": 184
+            },
+            "Website": {
+                "layers": 5067,
+                "layersReferencingExternalSymbols": 27,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "Landing Page": {
+                "layers": 1486,
+                "layersReferencingExternalSymbols": 123,
+                "layersReferencingExternalLayerStyles": 90,
+                "layersReferencingExternalTextStyles": 281
+            },
+            "New Homepage": {
+                "layers": 4662,
+                "layersReferencingExternalSymbols": 621,
+                "layersReferencingExternalLayerStyles": 193,
+                "layersReferencingExternalTextStyles": 660
+            }
+        },
+        "iOS App": {
+            "5. Timeline": {
+                "layers": 0,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "8. Protect": {
+                "layers": 0,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "📱 Native & Global": {
+                "layers": 58,
+                "layersReferencingExternalSymbols": 23,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 30
+            },
+            "🔗 iOS Local Components": {
+                "layers": 26,
+                "layersReferencingExternalSymbols": 14,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 12
+            },
+            "🚧7. My account": {
+                "layers": 781,
+                "layersReferencingExternalSymbols": 0,
+                "layersReferencingExternalLayerStyles": 0,
+                "layersReferencingExternalTextStyles": 0
+            },
+            "1. Start, Login & Registration": {
+                "layers": 717,
+                "layersReferencingExternalSymbols": 129,
+                "layersReferencingExternalLayerStyles": 14,
+                "layersReferencingExternalTextStyles": 86
+            },
+            "2. Dashboard": {
+                "layers": 352,
+                "layersReferencingExternalSymbols": 256,
+                "layersReferencingExternalLayerStyles": 12,
+                "layersReferencingExternalTextStyles": 84
+            },
+            "6. Coaching": {
+                "layers": 342,
+                "layersReferencingExternalSymbols": 230,
+                "layersReferencingExternalLayerStyles": 22,
+                "layersReferencingExternalTextStyles": 90
+            },
+            "3. Report": {
+                "layers": 1297,
+                "layersReferencingExternalSymbols": 932,
+                "layersReferencingExternalLayerStyles": 34,
+                "layersReferencingExternalTextStyles": 284
+            },
+            "7. My Account": {
+                "layers": 533,
+                "layersReferencingExternalSymbols": 357,
+                "layersReferencingExternalLayerStyles": 49,
+                "layersReferencingExternalTextStyles": 111
+            },
+            "4. Offers": {
+                "layers": 2137,
+                "layersReferencingExternalSymbols": 1438,
+                "layersReferencingExternalLayerStyles": 56,
+                "layersReferencingExternalTextStyles": 385
+            }
+        }
+    }
+}
